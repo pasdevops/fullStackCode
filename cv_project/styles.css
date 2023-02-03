@@ -5,3 +5,7 @@ body {
   text-align: center;
   color: black;
 }
+.Summary:hover {
+  text-align: center;
+  background-color: coral;
+}
