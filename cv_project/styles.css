@@ -23,6 +23,16 @@ p:not(.important) {
   background-color: crimson;
   text-align: center;
 }
+.demo {
+  align-items: center;
+}
+#demo {
+  position: relative;
+  display: inline-block;
+}
+#reel {
+  width: 100vw;
+}
 
 /*
 
