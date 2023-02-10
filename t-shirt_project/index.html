@@ -5,56 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T-Shirt Project</title>
-    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <p>Welcome to my T-Shirt Shop</p>
+    <div class="welcome">
+      <h2>Welcome to my T-Shirt Shop</h2>
+      <p>Log in to T-Shirt Shop</p>
+    </div>
 
-    <form action="/action_page.php">
-      <label for="username">Username:</label><br />
-      <input type="text" id="username" name="username" /><br />
-      <label for="pwd">Password:</label><br />
-      <input type="password" id="pwd" name="pwd" /><br /><br />
-      <label for="address">Address:</label><br />
-      <input type="Address" id="pwd" name="pwd" /><br /><br />
-    </form>
+    <div class="login">
+      <form action="/action_page.php">
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="pwd">Password:</label><br />
+        <input type="password" id="pwd" name="pwd" /><br /><br />
+        <h4>Forgot your password?</h4>
+        <h5>Log in</h5>
+        <h6>Don’t have an account yet? Sign up</h46
+      </form>
+    </div>
 
-    <img
-      src="https://files.cdn.printful.com/o/upload/hero-banner-2-frame/13/13700fbe8d39e7331866e98b830aed8a_l"
-      alt="painful"
-      width="800"
-      height="400"
-    />
-    <p>Select Sizes</p>
-    <form action="/action_page.php">
-      <label for="Select">Sizes:</label>
-      <select name="T-Shirt" id="T-Shirt">
-        <option value="Small">Small</option>
-        <option value="Medium">Medium</option>
-        <option value="Large">Large</option>
-        <option value="Extra Large">Extra Large</option>
-      </select>
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="tshirt">
+      <img
+        src="https://files.cdn.printful.com/o/upload/hero-banner-2-frame/13/13700fbe8d39e7331866e98b830aed8a_l"
+        alt="painful"
+        width="800"
+        height="400"
+      />
+    </div>
 
-    <br />
-    <p>Selected Colours</p>
-    <form action="/action_page.php">
-      <label for="Select">Colours:</label>
-      <select name="Colours" id="Colours">
-        <option value="Red">Red</option>
-        <option value="Blue">Blue</option>
-        <option value="White">White</option>
-        <option value="Green">Green</option>
-      </select>
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
-    <br />
+    <div class="size">
+      <p>Select Sizes</p>
+      <form action="/action_page.php">
+        <label for="Select">Sizes:</label>
+        <select name="T-Shirt" id="T-Shirt">
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+          <option value="Extra Large">Extra Large</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div class="Colour">
+      <p>Select Colours</p>
+      <form action="/action_page.php">
+        <label for="Select">Colours:</label>
+        <select name="Colours" id="Colours">
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="White">White</option>
+          <option value="Green">Green</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+   
     <p>Something Funny!!</p>
-    <img src="job.png" alt="painful" width="800" height="400" />
+    <div class="funny">
+      <img src="job.png" alt="painful" style="width:600px;height:400px;">
+    </div>
 
     <p>
       You can access our online video by visiting some our uploaded clips below.

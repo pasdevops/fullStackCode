@@ -1,3 +1,36 @@
 body {
   background-color: #f48484;
 }
+.welcome {
+  text-align: center;
+}
+.login {
+  text-align: center;
+}
+.tshirt {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.size {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+}
+.Colour {
+  position: relative;
+  bottom: 120px;
+  left: 70%;
+  width: 180px;
+  font-size: 18px;
+}
+.funny {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
