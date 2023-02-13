@@ -15,17 +15,9 @@ body {
   font-size: 18px;
 }
 .size {
-  position: relative;
-  top: 50%;
-  width: 100%;
-  text-align: left;
   font-size: 18px;
 }
 .Colour {
-  position: relative;
-  bottom: 120px;
-  left: 70%;
-  width: 180px;
   font-size: 18px;
 }
 .funny {
@@ -33,4 +25,36 @@ body {
   width: 100%;
   text-align: center;
   font-size: 10px;
+}
+/* container makes a area of content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-sa {
+  justify-content: space-around;
+}
+.form-control {
+  min-width: 80px;
+  padding: 4px 8px;
+}
+.btn {
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+.btn-submit {
+  background: #fff;
+  border-color: #fff;
 }
