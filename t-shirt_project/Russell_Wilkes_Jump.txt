@@ -31,7 +31,249 @@ https://drive.google.com/file/d/1eRe4P7ioG-36qMKTyLCcQX86M39bGsHg/view?ts=63e573
 https://slides.com/jmsherry/flexbox
 https://drive.google.com/file/d/1VoERweoiAT7Yoy3lJUOCmENUU5Lrcn0d/view?ts=63ec0039
 
+Errors in code
+- Check the square brackets 
+- Run with a validator  = online
+- Check DOM Errors
 
+CSS rules 
+browser can igonore rules older browser 
+css will only apply rules on the mostly used and ignore one 
+some rules can be completely ignored
+e.g.
+display: inline-block
+display: flex
+
+vendor prefixes - not widely used = can be used at some places
+-way for browser makers to add support for new CSS features before those features are fully supported in all browsers.
+-used for compactibilty 
+-use autoprefixer to  write the code
+https://autoprefixer.github.io/
+
+flexbox
+div class - "flex container" = PARENT
+major css rules applies to children
+
+MAKE SURE FLEX IS TURNED ON BEFORE WORKING 
+
+flex container children
+css rules apples to ALL
+div class 1
+div class 2
+div class 3
+div class 4
+div class 5
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning
+-one-dimentional = allows element to auto-distribute space
+-fix probelms with height, vertical cntering
+-can be used for nav bar and menu
+-used to put things next to each other
+https://www.w3schools.com/css/css3_flexbox_container.asp#flex-direction
+
+
+grid 2 dinetional 
+grid x 2 types = flexbox or grid built insed the browser
+
+flex uses container 
+html div - class = flex-container = PARENT OF THE DIVS
+css style = .flex-container
+display = flex
+div 1,2,3 will have class one, two, three = children of the container
+
+div > div = this is direct div and not to affect children
+width
+height
+color
+
+children (1,2,3) different color
+
+flex uses one rules to do different things 
+flex rules
+-background color - Red
+-display - flex
+-justify contect - center
+
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+
+The flex container properties are:
+
+flex-direction 
+= row-reverse (left to right flipping orders )
+flex-direction 
+= column-reverse (sitting on top each other)
+
+flex-wrap
+The flex-wrap property specifies whether the flex items should wrap or not.
+-wraps around each other horizontally when there is not enough space.
+-wraps levages one direction to another wrap
+
+flex-flow
+The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap or reverse;
+}
+
+
+align-items - main axis and cross axis 
+The center value aligns the flex items in the middle of the container:
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  align-items: flex-end;
+  justify-content - center 
+}
+
+CSS gap Property
+Set the gap between rows and between columns to 50px:
+.flex-container {
+  gap: 50px;
+  column-gap: 50px;
+}
+https://www.w3schools.com/cssref/css3_pr_gap.php
+
+
+align-content
+The align-content property is used to align the flex lines.
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content:center;
+}
+
+justify-content
+Align the flex items at the center of the container:
+https://www.w3schools.com/cssref/css3_pr_justify-content.php
+
+ 
+CSS Flex Items
+RULES OF THE CONTAINER APPLIES TO PARENT
+RULES OF THE ITEMS APPLIES TO Child
+
+Child Elements (Items)
+The direct child elements of a flex container automatically becomes flexible (flex) items.
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+</div>
+
+
+
+The flex item properties are:
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+
+order = changes things individuallly and set any order we want
+<div class="flex-container">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div>
+  <div style="order: 1">4</div>
+</div>
+class order numbers matters and not the values on div:1
+
+The flex-grow Property
+The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.
+<div class="flex-container">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+
+The flex-shrink Property
+The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+</div>
+
+FLEX GROW AND SHRINK CAN BE DONE WITH SHORT HAND (ALL IN ONE)
+
+
+The flex-basis Property
+The flex-basis property specifies the initial length of a flex item.
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-basis: 200px">3</div>
+  <div>4</div>
+</div>
+
+
+FLEX IMAGES AND CONTENT IN A FLEX CONTAINER - BEST PRACTICE
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="flex-container">
+<div class="one"><a href="http://">Hello</a><div>
+<div class="two"><img src=""alt=""/a><div>
+<div class="three"><p>Hello</p><div>
+  
+</div>
+
+<p>All direct children of a flexible container becomes flexible items.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 https://www.theodinproject.com/lessons/intermediate-html-and-css-using-flexbox-and-grid
