@@ -1,0 +1,49 @@
+1. Intro to HTML
+https://drive.google.com/file/d/1Bx5cgjrAQ2KJddNXNEhoG6TKJUTVx8rp/view?ts=63d0f48b
+https://slides.com/jmsherry/further-html?token=883O31cp#/0/14
+
+2. Furthur HTML and Tables and Froms
+https://drive.google.com/file/d/1Y3rz1IpCcV8Z9Wi-qu-XrRL8t2D5clk-/view?ts=63d302a8
+https://slides.com/jmsherry/tables-and-forms#/0/6
+
+3.Forms and Images and Video and Audio.mp4
+https://drive.google.com/file/d/1XRklayVTRivbMNhwVhet40R1DTlV5Jec/view?ts=63d9b0b6
+https://slides.com/jmsherry/html5-audio-video-and-images?token=SQs1hWc3
+
+
+4. CSS Selectors.
+https://drive.google.com/file/d/1JD5SFy_ZFJXnMoRHcrnLrQWdv94f_UMI/view?ts=63dc3009
+https://slides.com/jmsherry/css-intro-selectors
+
+Tasks
+https://flukeout.github.io/#
+
+5. CSS Declarations
+https://drive.google.com/file/d/1ztZ8LeTuBp6tY0utu70QovCTgmQorE2Y/view?ts=63e2cf07
+https://slides.com/jmsherry/css-declarations#/0/7
+https://slides.com/jmsherry/introduction-to-layout#/0/15
+
+6. Layout Intro
+https://slides.com/jmsherry/fonts?token=OREgFBtD
+https://drive.google.com/file/d/1eRe4P7ioG-36qMKTyLCcQX86M39bGsHg/view?ts=63e573f8
+
+7.  Flex
+https://slides.com/jmsherry/flexbox
+https://drive.google.com/file/d/1VoERweoiAT7Yoy3lJUOCmENUU5Lrcn0d/view?ts=63ec0039
+
+
+
+
+https://www.theodinproject.com/lessons/intermediate-html-and-css-using-flexbox-and-grid
+
+
+https://slides.com/jmsherry/media-queries
+
+
+
+
+
+
+
+
+
