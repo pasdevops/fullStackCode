@@ -1,16 +1,20 @@
 body {
   background-color: #f48484;
 }
+.flex-container {
+display: flex;
+justify-content: space-between;
+}
 .welcome {
   text-align: center;
 }
 .login {
   text-align: center;
 }
-.tshirt {
+.img-container {
   position: relative;
   top: 50%;
-  width: 100%;
+  width: 120%;
   text-align: center;
   font-size: 18px;
 }

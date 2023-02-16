@@ -269,6 +269,9 @@ FLEX IMAGES AND CONTENT IN A FLEX CONTAINER - BEST PRACTICE
 </html>
 
 
+Nested Flex Containers with Flexbox is allowed 
+https://www.quackit.com/css/flexbox/tutorial/nested_flex_containers.cfm
+
 
 
 

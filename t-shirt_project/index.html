@@ -9,105 +9,119 @@
   </head>
 
   <body>
-    <div class="container">
-    <div class="welcome">
-      <h2>Welcome to my T-Shirt Shop</h2>
-      <p>Log in to T-Shirt Shop</p>
+    <div class="flex-container">
+      <div class="welcome">
+        <h2>Welcome to my T-Shirt Shop</h2>
+        <p>Log in to T-Shirt Shop</p>
+      </div>
+
+      <div class="login">
+        <form action="/action_page.php">
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" /><br />
+          <label for="pwd">Password:</label><br />
+          <input type="password" id="pwd" name="pwd" /><br /><br />
+          <h4>Forgot your password?</h4>
+          <h5>Log in</h5>
+          <h6>Don’t have an account yet? Sign up</h6>
+        </form>
+      </div>
     </div>
 
-    <div class="login">
-      <form action="/action_page.php">
-        <label for="username">Username:</label><br />
-        <input type="text" id="username" name="username" /><br />
-        <label for="pwd">Password:</label><br />
-        <input type="password" id="pwd" name="pwd" /><br /><br />
-        <h4>Forgot your password?</h4>
-        <h5>Log in</h5>
-        <h6>Don’t have an account yet? Sign up</h46
-      </form>
-    </div>
+    <div class="row">
+      <div class="left">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP</a></li>
+          <li><a href="#">Python</a></li>
+          <li><a href="#">jQuery</a></li>
+          <li><a href="#">SQL</a></li>
+          <li><a href="#">Bootstrap</a></li>
+          <li><a href="#">Node.js</a></li>
+        </ul>
+      </div>
 
-    <div class="tshirt">
-      <img
-        src="https://files.cdn.printful.com/o/upload/hero-banner-2-frame/13/13700fbe8d39e7331866e98b830aed8a_l"
-        alt="painful"
-        width="800"
-        height="400"
-      />
-    </div>
+      <div class="img-container">
+        <img
+          src="https://files.cdn.printful.com/o/upload/hero-banner-2-frame/13/13700fbe8d39e7331866e98b830aed8a_l"
+          alt="painful"
+          width="800"
+          height="400"
+        />
+      </div>
 
+      <div class="d-flex justify-content-sa">
+        <div class="size">
+          <p>Select Sizes</p>
+          <form action="/action_page.php">
+            <label for="Select">Sizes:</label>
+            <select name="T-Shirt" id="T-Shirt" class="form-control">
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="Extra Large">Extra Large</option>
+            </select>
+            <br /><br />
+            <!-- <input type="submit" value="Submit" /> -->
+            <button class="btn btn-submit" type="submit">Submit</button>
+          </form>
+        </div>
 
-<div class="d-flex justify-content-sa">
-  <div class="size">
-    <p>Select Sizes</p>
-    <form action="/action_page.php">
-      <label for="Select">Sizes:</label>
-      <select name="T-Shirt" id="T-Shirt" class="form-control">
-        <option value="Small">Small</option>
-        <option value="Medium">Medium</option>
-        <option value="Large">Large</option>
-        <option value="Extra Large">Extra Large</option>
-      </select>
-      <br /><br />
-      <!-- <input type="submit" value="Submit" /> -->
-      <button class="btn btn-submit" type="submit">Submit</button>
-    </form>
-  </div>
+        <div class="Colour">
+          <p>Select Colours</p>
+          <form action="/action_page.php">
+            <label for="Select">Colours:</label>
+            <select name="Colours" id="Colours" class="form-control">
+              <option value="Red">Red</option>
+              <option value="Blue">Blue</option>
+              <option value="White">White</option>
+              <option value="Green">Green</option>
+            </select>
+            <br /><br />
+            <!-- <input type="submit" value="Submit" /> -->
+            <button class="btn btn-submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <p class="text-center">Something Funny!!</p>
+      <div class="funny">
+        <img src="job.png" alt="painful" style="width: 600px; height: 400px" />
+      </div>
+      <p class="left">You can access some of our uploaded clips below.</p>
+      <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4" />
+        <source src="movie.ogg" type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
+      <p class="text-center">Click on the play button to play a sound:</p>
+      <div class="text-center">
+        <audio controls loop>
+          <source src="horse.ogg" type="audio/ogg" />
+          <source src="horse.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
 
-  <div class="Colour">
-    <p>Select Colours</p>
-    <form action="/action_page.php">
-      <label for="Select">Colours:</label>
-      <select name="Colours" id="Colours" class="form-control">
-        <option value="Red">Red</option>
-        <option value="Blue">Blue</option>
-        <option value="White">White</option>
-        <option value="Green">Green</option>
-      </select>
-      <br /><br />
-      <!-- <input type="submit" value="Submit" /> -->
-      <button class="btn btn-submit" type="submit">Submit</button>
-    </form>
-  </div>
-</div>
-    <p class="text-center">Something Funny!!</p>
-    <div class="funny">
-      <img src="job.png" alt="painful" style="width:600px;height:400px;">
-    </div>
-    <p class="left">
-      You can access some of our uploaded clips below.
-    </p>
-    <video width="320" height="240" controls>
-      <source src="movie.mp4" type="video/mp4" />
-      <source src="movie.ogg" type="video/ogg" />
-      Your browser does not support the video tag.
-    </video>
-    <p class="text-center">Click on the play button to play a sound:</p>
-    <div class="text-center">
-      <audio controls loop>
-        <source src="horse.ogg" type="audio/ogg" />
-        <source src="horse.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  
-    <br />
-    <p class="text-right">
-      Developer vs DevOps Engineer: What's the difference? Please can you tell
-      me??
-    </p>
+      <br />
+      <p class="text-right">
+        Developer vs DevOps Engineer: What's the difference? Please can you tell
+        me??
+      </p>
 
-    <div class="text-right">
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/yRUcUZxq0C0"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+      <div class="text-right">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yRUcUZxq0C0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
-  </div>
   </body>
 </html>
