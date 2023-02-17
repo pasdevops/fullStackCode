@@ -4,11 +4,15 @@ body {
 .flex-container {
 display: flex;
 justify-content: space-between;
+background-color: darkseagreen;
 }
 .welcome {
   text-align: center;
 }
 .login {
+  text-align: center;
+}
+.topnav{
   text-align: center;
 }
 .img-container {

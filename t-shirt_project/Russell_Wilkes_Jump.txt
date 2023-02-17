@@ -272,21 +272,45 @@ FLEX IMAGES AND CONTENT IN A FLEX CONTAINER - BEST PRACTICE
 Nested Flex Containers with Flexbox is allowed 
 https://www.quackit.com/css/flexbox/tutorial/nested_flex_containers.cfm
 
-
-
-
-
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-
 https://www.theodinproject.com/lessons/intermediate-html-and-css-using-flexbox-and-grid
 
 
+
+
+
+8. media-queries
 https://slides.com/jmsherry/media-queries
 
+media-queries
+
+media queries are a popular technique for delivering a tailored style sheet to different devices. 
+To demonstrate a simple example, we can change the background color for different devices.
 
 
+breakpoints = choose the minimum devices that you want to support.
+phone = <600px
+desktop = > 1200px
 
+every comapny use different breakpoints
+
+
+There are tons of screens and devices with different heights and widths, 
+so it is hard to create an exact breakpoint for each device. 
+
+To keep things simple you could target five common groups:
+
+Example
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+
+Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. 
+These breakpoints can be customized if you’re using our source Sass files.
+https://getbootstrap.com/docs/5.0/layout/breakpoints/
 
 
 
