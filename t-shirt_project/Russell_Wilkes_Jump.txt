@@ -281,11 +281,21 @@ https://www.theodinproject.com/lessons/intermediate-html-and-css-using-flexbox-a
 
 8. media-queries
 https://slides.com/jmsherry/media-queries
+https://drive.google.com/file/d/18Hd93Yt5K4bP6dZKZFn9m9iPeYwquvP4/view?ts=63eeb739
 
 media-queries
 
 media queries are a popular technique for delivering a tailored style sheet to different devices. 
 To demonstrate a simple example, we can change the background color for different devices.
+
+conditional css 
+
+process 
+
+- set up link stylesheet
+- set up media 
+
+
 
 
 breakpoints = choose the minimum devices that you want to support.
@@ -308,9 +318,15 @@ Example
 @media only screen and (min-width: 600px) {...}
 
 
+
+pre built grid system - depending the requirements
+
 Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. 
 These breakpoints can be customized if you’re using our source Sass files.
 https://getbootstrap.com/docs/5.0/layout/breakpoints/
+
+
+
 
 
 
