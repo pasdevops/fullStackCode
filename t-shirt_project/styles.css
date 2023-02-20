@@ -1,11 +1,30 @@
 body {
   background-color: #f48484;
 }
+
+/* Breakpoints */
+
+/* @mixin for-phone-only */ {
+
+@media (max-width: 599px) { @content; }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+  
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+
+/* Selectors and Rules */
+
 .flex-container {
 display: flex;
 justify-content: space-between;
 background-color: darkseagreen;
 }
+
 .welcome {
   text-align: center;
 }
@@ -65,4 +84,12 @@ background-color: darkseagreen;
 .btn-submit {
   background: #fff;
   border-color: #fff;
+}
+.contact{
+ text-align: center;
+ position: relative;
+}
+.bottom-container{
+    position: relative;
+    text-align: center;
 }
