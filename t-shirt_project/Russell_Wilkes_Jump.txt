@@ -396,6 +396,22 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/
 
 
 
+9. SVG
+https://slides.com/jmsherry/svg?token=GZzdx--B
+
+FIGMA
+Figma is a powerful web-based design tool that helps you create anything, websites, applications, logos, and much more. 
+You'll take your first steps into User Interface Design and User Experience Design by learning how to use Figma.
+
+Web development - specifitcation files 
+
+https://www.figma.com/
+
+HTML
+First = mark up HTML 
+
+
+
 
 
 

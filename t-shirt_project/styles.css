@@ -3,44 +3,6 @@ body {
    background-color: #84d4f4;
  
 } 
-/* targeting screen */
-@media screen and (min-width: 600px) {
-  body {
-    background-color: #f48484;
-    
-  }
-
-}
-/* targeting printer */
-@media print (min-width: 500px) {
-  body {
-    background-color: #f48484;
-    color: white; 
-  } 
-}
-/* target multiple devices
-@media screen, print {
-
-} */
-
-/* Target min and max best practice */
-
-/* target min
-@media (min-width: 500px) {
-  .container {
-  padding: 20px;
-  background-color: red;
-  }
-} */
-
-/* target max
-@media (min-width: 700px) {
-  .container {
-  padding: 70px;
-  background-color: blue;
-  }
-} */
-
 /* Selectors and Rules */
 
 .flex-container {
@@ -117,3 +79,39 @@ background-color: darkseagreen;
     position: relative;
     text-align: center;
 }
+/* targeting screen */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #f48484;
+    
+  }
+}
+/* targeting printer */
+@media print (min-width: 500px) {
+  body {
+    background-color: #f48484;
+    color: white; 
+  } 
+}
+/* target multiple devices
+@media screen, print {
+
+} */
+
+/* Target min and max best practice */
+
+/* target min
+@media (min-width: 500px) {
+  .container {
+  padding: 20px;
+  background-color: red;
+  }
+} */
+
+/* target max
+@media (min-width: 700px) {
+  .container {
+  padding: 70px;
+  background-color: blue;
+  }
+} */
