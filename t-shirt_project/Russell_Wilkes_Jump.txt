@@ -288,6 +288,8 @@ media-queries
 media queries are a popular technique for delivering a tailored style sheet to different devices. 
 To demonstrate a simple example, we can change the background color for different devices.
 
+media queries rules = start with mobiles first
+
 conditional css 
 
 process 
@@ -295,7 +297,34 @@ process
 - set up link stylesheet
 - set up media 
 
+media query target types that can used:
+all = rules applies 
+screen = on screen
+print = printing docs -banks, boarding pass
+aural = voice - deprecated
+braile = blind readers
+handheld = devices pda's 
+projection = deprecated 
+embossed = blind readers
+tty 
+tv 
 
+
+media query can target capabilities of devices at the moment in time
+screens minimum width should be 500px or more = vertical/horizontal 
+
+media features
+user-preferences - some users might prefer dark/light mode 
+= set rules according to prefrences 
+accesscibilty prefrence = animation or not - turn animation off or on on the OS
+
+Using media queries
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+media queries = responsiveness
+min and max is utilised for responsiveness
+always start with min width
+use max width less often
 
 
 breakpoints = choose the minimum devices that you want to support.
@@ -316,6 +345,46 @@ Example
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...}
+
+
+/* targeting printer */
+@media print (min-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+
+/* targeting screen */
+@media print (min-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+
+/* target multiple devices
+@media screen, print {
+
+} */
+
+/* Target min and max best practice */
+
+/* target min
+@media (min-width: 500px) {
+  .container {
+  padding: 20px;
+  background-color: red;
+  }
+} */
+
+/* target max
+@media (min-width: 700px) {
+  .container {
+  padding: 70px;
+  background-color: blue;
+  }
+} */
+
+scripting
+The scripting CSS media feature can be used to test whether scripting (such as JavaScript) is available.
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/scripting
 
 
 
