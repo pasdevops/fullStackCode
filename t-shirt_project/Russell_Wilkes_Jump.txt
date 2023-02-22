@@ -396,8 +396,10 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/
 
 
 
-9. SVG
+
+9. Four card feature - SVG
 https://slides.com/jmsherry/svg?token=GZzdx--B
+https://drive.google.com/file/d/1VrHjm8_PUQ7AyWo8KkARB7gKZa1d59au/view?ts=63f5e775
 
 FIGMA
 Figma is a powerful web-based design tool that helps you create anything, websites, applications, logos, and much more. 
