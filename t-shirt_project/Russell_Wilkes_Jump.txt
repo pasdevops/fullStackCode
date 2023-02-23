@@ -397,7 +397,7 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/
 
 
 
-9. Four card feature - SVG
+9. Four card feature - FIGMA
 https://slides.com/jmsherry/svg?token=GZzdx--B
 https://drive.google.com/file/d/1VrHjm8_PUQ7AyWo8KkARB7gKZa1d59au/view?ts=63f5e775
 
@@ -411,6 +411,54 @@ https://www.figma.com/
 
 HTML
 First = mark up HTML 
+
+
+
+10. SVG
+https://slides.com/jmsherry/svg?token=GZzdx--B#/0/4
+
+SVG stands for Scalable Vector Graphics.
+SVG defines vector-based graphics in XML format.
+
+SVG images can be created with any text editor, 
+but it is often more convenient to create SVG images with a drawing program
+
+canvas alternative to SVG 
+canvas cannnot be changed 
+SVG's can be modified 
+SVG's resolution depenedent 
+SVG's have API 
+SVG's can be embeded on html5
+SVG's is used as an object 
+SVG's can useed as iframe (webpage into webpage)
+SVG's can be used as image tags (not accesscibilty)
+viewbox in SVG's 
+sizing = SVG
+viewbox = SVG
+Aspect ratio = SVG 
+path = SVG 
+shapes you can draw with SVG's
+SVG INSIDE SVG 
+Polyline and polygons are different
+SVG visualiser 
+external images = SVG 
+grouping elements = SVG 
+re-use = SGV using - (defs) tags - 
+
+
+<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple rectangle -->
+  <rect width="100" height="100" />
+
+  <!-- Rounded corner rectangle -->
+  <rect x="120" width="100" height="100" rx="15" />
+</svg>
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
+
+https://thenounproject.com/icons/
+
+
 
 
 
