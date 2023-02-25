@@ -7,3 +7,12 @@ body {
  font-size: large;
  font-style: oblique;
 }
+.top-container {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pret.container {
+    float: left; 
+    padding: 10px;
+}
+
