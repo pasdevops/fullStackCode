@@ -11,8 +11,19 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.pret.container {
-    float: left; 
-    padding: 10px;
-}
+.pret-container {
 
+}
+h1 {
+color: black;
+text-align: right;
+}
+img {
+float: left;
+margin: 5px;
+size: 0%;;
+}
+p {
+text-align: center;
+font-size: 20px;
+}
