@@ -3,9 +3,9 @@ body {
 }
 .flex-container{
  display: flex;
- justify-content: space-evenly;
+ justify: content 200px;;
  font-size: large;
- font-style: oblique;
+ font-style: normal;
 }
 .top-container {
     text-align: center;
@@ -27,3 +27,4 @@ p {
 text-align: center;
 font-size: 20px;
 }
+
