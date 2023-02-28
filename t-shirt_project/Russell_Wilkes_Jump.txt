@@ -416,6 +416,7 @@ First = mark up HTML
 
 10. SVG
 https://slides.com/jmsherry/svg?token=GZzdx--B#/0/4
+https://drive.google.com/file/d/1o6T94jZUzTMJd52uPSRspsfGGKIEVy4F/view?ts=63f7dca4
 
 SVG stands for Scalable Vector Graphics.
 SVG defines vector-based graphics in XML format.
@@ -457,6 +458,39 @@ re-use = SGV using - (defs) tags -
 https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
 
 https://thenounproject.com/icons/
+
+
+11. Advance CSS
+https://slides.com/jmsherry/advanced-css3
+
+
+Shadows 
+- text shadows 
+Border radius
+Background enhancements - multiple background 
+Background attachement - scroll and locale
+Background attachement - repeat + round
+Background attachement - clip
+Background attachement - origin
+Background attachement - linear gradient 
+
+Gradient Background - background from one color to another color 
+
+Color stop syntax - List 
+
+Transforms -  moving something
+-scale up and down 
+- skew 
+- rotate
+
+Transition - Transform and ease-i-out
+
+Animation 
+@keyframe demo1
+tranform/scale
+What can you animate?
+
+
 
 
 

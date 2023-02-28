@@ -3,108 +3,165 @@
 <meta charset="UTF-8">
 <title>Pret Shop</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="styles.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- RESET -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- GENERICS -->
+<link rel="stylesheet" href="/generics.css">
+ <!-- YOUR STYLES -->
+<link rel="stylesheet" href="/styles.css" />
 
 <body>
-<div class="flex-container">
-<nav>
-<a href="https://www.pret.co.uk/en-GB/orderonline">*PRET*</a>
-<a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a>
-<a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a> 
-<a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a>
-<a href="https://www.pret.co.uk/en-GB/about-pret">About</a>
-<a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a>  
-<a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a>  
-<a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a>  
-<a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a>  
-<a href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/">Login</a>  
-</nav>
-</div>
+  <header class="page-header">
+    <div class="container flex-container">
+      <label for="menu-toggler" aria-label="toggle menu" class="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+      <a href="https://www.pret.co.uk/en-GB/orderonline"><img class="logo" src="/pret-a-manger-logo.png" alt="* PRET *"></a>
 
-</div>
-<img src="./images/front-page/flavour-full.jpg" alt="flavour-full" />
-<div class="">
-
-<!-- Flavour full. Fuss free. section-->
-<div class="top-container">
-<h1>Flavour full. Fuss free</h1>
-<p> Our newly expanded Made Simple range, offers delicious freshly made favourites for great value, starting at just £2.99*. Simply great flavour (no fuss).</p>
-<p>*Price and participation may vary. For full range see <a href="https://www.pret.co.uk/en-GB/our-menu">here</a>.</p>
-<button type="button" onclick="alert(<p><a href="https://www.pret.co.uk/en-GB/shop-finder")></a></p>Find your nearest Pret</button>
-<!-- hyperlink on button click not working -->
-</div>
-<br>
-
-<!-- Wrap images and text-->
-<!-- Apps store downloads x 2-->
-
-<h1>Pret Coffee Subscription</h1>
-  <div class="pret.container">
-    <div>
-       <img src="./images/front-page/pret-coffee.webp" alt="pret-coffee" />
-    </div>  
-<p>
- Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50 for your first month, and then £25 after that. Find out more here or download the App to subscribe!
- </p>
-</div>
-
-
-<!-- Our New Menu is Here section-->
-<!-- Wrap images and text-->
-<!-- Find out more here - anchor tags-->
-
-
-
-<!-- How do you Pret? section-->
-<!-- Order Pret straight to your door - image/anchor tags/hoover - Order delivery-->
-<!-- Eat in at your nearest Pret - image/anchor tags/ hoover - Find a Pret-->
-<!-- Subscribe to the Pret Coffee Subscription - image/anchor tags/hoover - Sign up now -->
-
-
-
-<!-- We're recruiting section-->
-<!-- image/ hoover - Apply now-->
-
-
-
-<!-- Pret Joy at Home section-->
-<!-- images/text wrap/hoover/anchor tags - shop now-->
-
-
-
-<!-- Our Food and Drink menu section -->
-<!-- multiple images x 8 -->
-
-
-
-<!-- Allergen Guide section -->
-<!-- Allergen Guide PDF - anchor tags -->
-<!-- Customer Service - anchor tags -->
-<!--  Read our allergen guide -hoover/anchor tags -->
-
-
-
-<!-- Socials section Side by side site footer-->
-
-<!-- Site footer
-<footer class="site-footer"
-<div>
-<div>Customer Services</div>
-<div>Corporate</div>
-<div>Jobs</div>
-<div>Coffee Subscription</div>
-</div>
-
-Copyright section -->
-
-  <!-- <div class="container">
-        <p class="copyright-text">Copyright &copy;Pret A Manger 2023. Pret A Manger (Europe) Ltd, Reg. Number 1854213 · Pret A Manger (USA) Ltd, Reg. Number 3836164 · Pret A Manger (Hong Kong) Ltd, Reg. Number 4240964. The above three companies are registered in England and their registered office is at 75B, Verde, 10 Bressenden Place, London SW1E 5DH.
+      <input type="checkbox" id="menu-toggler" hidden class="menu-toggler">
+      <nav class="site-nav">
+        <label for="menu-toggler" aria-label="close menu" class="internal-menu-toggle"><i class="fa-solid fa-xmark"></i></label>
+        <a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a>
+        <a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a>
+        <a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a>
+        <a href="https://www.pret.co.uk/en-GB/about-pret">About</a>
+        <a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a>
+        <a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a>
+        <a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a>
+        <a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a>
+      </nav>
+      <a
+          href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/"
+          class="sign-in-link">Sign In</a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <!-- Flavour full. Fuss free. section-->
+      <img src="./images/front-page/flavour-full.jpg" alt="flavour-full" />
+      <div class="top-container">
+        <h1>Flavour full. Fuss free</h1>
+        <p> Our newly expanded Made Simple range, offers delicious freshly made favourites for great value, starting at
+          just £2.99*. Simply great flavour (no fuss).</p>
+        <p>*Price and participation may vary. For full range see <a
+            href="https://www.pret.co.uk/en-GB/our-menu">here</a>.
         </p>
-      </div> -->
+        <!-- <button type="button" onclick="alert(<p><a href="https://www.pret.co.uk/en-GB/shop-finder")></a></p>Find your nearest Pret</button> -->
+        <!-- hyperlink on button click not working -->
+      </div>
+    </section>
 
+    <section>
+      <!-- Wrap images and text-->
+      <!-- Apps store downloads x 2-->
+
+      <h1>Pret Coffee Subscription</h1>
+      <div class="pret.container">
+        <div>
+          <img src="./images/front-page/pret-coffee.webp" alt="pret-coffee" />
+        </div>
+        <p>
+          Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50
+          for
+          your first month, and then £25 after that. Find out more here or download the App to subscribe!
+        </p>
+      </div>
+    </section>
+
+<section>
+    <!-- Our New Menu is Here section-->
+    <!-- Wrap images and text-->
+    <!-- Find out more here - anchor tags-->
+    <div>
 
     </div>
+</section>
+
+<section>
+    <!-- How do you Pret? section-->
+    <!-- Order Pret straight to your door - image/anchor tags/hoover - Order delivery-->
+    <!-- Eat in at your nearest Pret - image/anchor tags/ hoover - Find a Pret-->
+    <!-- Subscribe to the Pret Coffee Subscription - image/anchor tags/hoover - Sign up now -->
+    <div>
+
+    </div>
+</section>
+
+<section>
+    <!-- We're recruiting section-->
+    <!-- image/ hoover - Apply now-->
+    <div>
+
+    </div>
+</section>
+
+<section>
+    <!-- Pret Joy at Home section-->
+    <!-- images/text wrap/hoover/anchor tags - shop now-->
+    <div>
+
+    </div>
+</section>
+
+<section>
+    <!-- Our Food and Drink menu section -->
+    <!-- multiple images x 8 -->
+
+  <div>
+
   </div>
-</footer>
+</section>
+
+
+
+<section>
+    <!-- Allergen Guide section -->
+    <!-- Allergen Guide PDF - anchor tags -->
+    <!-- Customer Service - anchor tags -->
+    <!--  Read our allergen guide -hoover/anchor tags -->
+ <div>
+
+ </div>
+</section>
+
+<!-- <section>
+  <div class="">
+  <footer>
+  <nav>
+  <h1>Customer Services</h1>
+  <h3><a href =""><a></h3>
+  <a href="/html">HTML</a>
+  <a href="/html">HTML</a>
+  <h1>Create a Flex Container</h1>
+  <a href="/css/">CSS</a>
+  <h1>Create a Flex Container</h1>
+  <a href="/js/">JavaScript</a>
+  <h1>Create a Flex Container</h1>
+  <a href="/python/">Python</a>
+  </nav>
+  </footer>
+  </div>
+</section> -->
+
+
+<nav class="nav ul">
+  <ul>
+    <li><a href="https://www.pret.co.uk/en-GB/allergenguide">Customer Services</a></li>
+    <li><a href="https://www.pret.co.uk/en-GB/allergenguide">Allergen Guide</a></li>
+    <li><a href="#">Page 2</a></li>
+    <li><a href="#">Page 3 is longer</a></li>
+    <li><a href="#">Page 4</a></li>
+  </ul>
+</nav>
+
+<section>
+  <div>
+  <footer>
+    <p> © Pret A Manger 2023. Pret A Manger (Europe) Ltd, Reg. Number 1854213 · Pret A Manger (USA) Ltd, Reg. Number 3836164 · Pret A Manger (Hong Kong) Ltd, Reg. Number 4240964. The above three companies are registered in England and their registered office is at 75B, Verde, 10 Bressenden Place, London SW1E 5DH.</p>
+  </footer>
+  </div>
+</section>
+</main>
 </body>
 </html>
