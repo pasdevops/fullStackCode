@@ -455,6 +455,69 @@ re-use = SGV using - (defs) tags -
   <rect x="120" width="100" height="100" rx="15" />
 </svg>
 
+Burger Menu 
+
+When working with burger menu = thing to turn ON and OFF SHOULD BE THE SUB MENU
+You can use HTML and CSS including Javascript to manipulate burger menu.
+Sub menu should be a child of clickable items
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div class="burger-container" tabindex="0">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="sub-menu">
+        <div>menu item 1</div>
+        <div>menu item 2</div>
+        <div>menu item 3</div>
+        <div>menu item 4</div>
+      </div>
+    </div>
+    <div class="for-demo">For Demo Only</div>
+  </body>
+</html
+
+
+
+CSS CODE 
+
+.line {
+  background-color: black;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 2px;
+}
+.sub-menu {
+  display: none;
+}
+.burger-container:hover .sub-menu,
+.burger-container:focus-within .sub-menu {
+  display: initial;
+}
+.for-demo{
+  background-color: brown;
+}
+
+
+
+Multiple Levels of Burger Menu
+
+
+
+
+
+
+
 https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
 
 https://thenounproject.com/icons/
@@ -462,7 +525,7 @@ https://thenounproject.com/icons/
 
 11. Advance CSS
 https://slides.com/jmsherry/advanced-css3
-
+https://drive.google.com/file/d/1c1mA0PaBBVe7RfdoyFVtaZu0JFGHEzXc/view?ts=63fe8c93
 
 Shadows 
 - text shadows 
