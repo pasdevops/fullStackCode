@@ -83,3 +83,6 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.pret-container {
+  display: flex;
+}

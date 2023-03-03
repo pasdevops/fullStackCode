@@ -1,3 +1,10 @@
+Front end cheat-sheet
+https://docs.emmet.io/cheat-sheet/
+
+CSS GENERIC RULES - JAMES REPO
+https://github.com/jmsherry/generic-css/blob/main/generics.cs
+
+
 1. Intro to HTML
 https://drive.google.com/file/d/1Bx5cgjrAQ2KJddNXNEhoG6TKJUTVx8rp/view?ts=63d0f48b
 https://slides.com/jmsherry/further-html?token=883O31cp#/0/14
@@ -557,6 +564,13 @@ tranform/scale
 What can you animate?
 
 12. Grid
+https://drive.google.com/file/d/1xx9VYMLXEYseLfxqWfEn4d7YZ6mQ4CgH/view?ts=64011d5a
+https://slides.com/jmsherry/css-grid-v2?token=YX8kwFvQ
+https://docs.google.com/presentation/d/1e120ZoafBdK2phtSDMvIfqkQOVZ_xeu4LBvaTTtH05M/edit#slide=id.p
+css-grid-tutorial
+https://scrimba.com/learn/cssgrid/your-first-grid-css-grid-tutorial-cMQgGca
+
+
 Grid can use flex
 Grid lines = 
 Track gap between grid lines
