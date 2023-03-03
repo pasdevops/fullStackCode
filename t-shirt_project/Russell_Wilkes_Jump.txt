@@ -455,6 +455,11 @@ re-use = SGV using - (defs) tags -
   <rect x="120" width="100" height="100" rx="15" />
 </svg>
 
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
+
+https://thenounproject.com/icons/
+
 Burger Menu 
 
 When working with burger menu = thing to turn ON and OFF SHOULD BE THE SUB MENU
@@ -511,16 +516,14 @@ CSS CODE
 
 
 Multiple Levels of Burger Menu
+- Always use NAV BAR to address your CSS RULES FOR UL AND LI
+- HOME AND PRODUCTS ARE THE MAIN MENU
 
 
 
 
 
 
-
-https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
-
-https://thenounproject.com/icons/
 
 
 11. Advance CSS
@@ -552,6 +555,31 @@ Animation
 @keyframe demo1
 tranform/scale
 What can you animate?
+
+12. Grid
+Grid can use flex
+Grid lines = 
+Track gap between grid lines
+Grid area - chunks of grid area
+Grid needs a container
+Divs are items inside a grid
+Grid auto inserted
+More controls 
+Auto in CSS grids - expans to fill spaces - auto makes it own choice
+Auto can shrink 
+Explicit grid and implicit grids
+Unit = fr 1 or greater e.g 1fr 2fr
+Add media query to your grid
+Grid min and max content 
+max makes row and counm as wide as it work
+Grid gap creates spaces in between grids
+GAP is better than Margin
+Auto fit and auto fill = to fill in as many items you can fit 
+Implicit grid - stay clear 
+
+
+
+https://grid.malven.co/
 
 
 
