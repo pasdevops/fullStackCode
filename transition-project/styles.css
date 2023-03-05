@@ -1,23 +1,18 @@
-div.a {
-  width: 150px;
-  height: 80px;
-  background-color: yellow;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  transform: rotate(20deg);
+.text-shadow {
+   text-shadow: 1px 1px 2px black, 
+        0 0 1em blue;
 }
-
-div.b {
-  width: 150px;
-  height: 80px;
-  background-color: yellow;
-  -ms-transform: skewY(20deg); /* IE 9 */
-  transform: skewY(20deg);
+.box-shadow {
+    box-shadow: 1px 1px 2px 5px black;
 }
-
-div.c {
-  width: 150px;
-  height: 80px;
-  background-color: yellow;
-  -ms-transform: scaleY(1.5); /* IE 9 */
-  transform: scaleY(1.5);
+.rounded-corners {
+  border-radius: 20px;
+  background-color: brown;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+}
+.multiple-backgrounds {
+    background: url(./images/img1.jpg) top left no-repeat, 
+        url(./images/img2.jpg) top right no-repeat #f00;
 }
