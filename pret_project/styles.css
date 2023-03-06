@@ -26,7 +26,34 @@ p {
   /* outline: 1px solid orange; */
   /* background-color: hsl(120, 100%, 50%, 0.4); */
 }
+header {
+  margin: 15px 0;
+}
+.header-logo .logo {
+  max-width: 120px;
+  margin-right: 20px;
+}
+.borderless {
+  border: none !important;
+}
+.top-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 
+  background: #fff;
+}
+.top-container {
+  background-color: #fff;
+}
+.cta-btn {
+  padding: 8px 15px;
+  background: rgba(159, 27, 50, 1);
+  background: white;
+}
+.btn btn-info {
+background: white;
+}
 .flex-container {
   display: flex;
 }
@@ -38,6 +65,9 @@ p {
 .site-nav {
   display: none;
   justify-content: space-between;
+}
+.img-fluid {
+  max-width: 100%;
 }
 
 @media (max-width: 959px) {
@@ -76,8 +106,7 @@ p {
   /* justify-content: ; */
 }
 .lower-container {
-      display: flex;
-
+  display: flex;
 }
 .nav ul {
   display: flex;

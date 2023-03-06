@@ -5,69 +5,100 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <!-- RESET -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <!-- GENERICS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- GENERICS -->
 <link rel="stylesheet" href="/generics.css">
  <!-- YOUR STYLES -->
-<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="styles.css" />
 
 <body>
-  <header class="page-header">
+  <header>
     <div class="container flex-container">
-      <label for="menu-toggler" aria-label="toggle menu" class="menu-toggle"><i class="fa-solid fa-bars"></i></label>
-      <a href="https://www.pret.co.uk/en-GB/orderonline"><img class="logo" src="/pret-a-manger-logo.png" alt="* PRET *"></a>
-
-      <input type="checkbox" id="menu-toggler" hidden class="menu-toggler">
-      <nav class="site-nav">
-        <label for="menu-toggler" aria-label="close menu" class="internal-menu-toggle"><i class="fa-solid fa-xmark"></i></label>
-       
-        <a href="https://www.pret.co.uk/en-GB/orderonline"><img src="./images/pret-a-manger-logo.png" alt="*PRET*"></a>
-        <a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a>
-        <a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a>
-        <a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a>
-        <a href="https://www.pret.co.uk/en-GB/about-pret">About</a>
-        <a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a>
-        <a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a>
-        <a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a>
-        <a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a>
-      </nav>
-      <a href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/"
-       class="sign-in-link">Sign In</a>
-
+      <nav class="navbar navbar-default borderless">
+    <div class="container-fluid">
+    <div class="d-flex">
+    <div class="navbar-header">
+       <a href="https://www.pret.co.uk/en-GB/orderonline" class="header-logo"><img class="logo" src="./images/pret-a-manger-logo.png" alt="* PRET *"></a>
     </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/about-pret">About</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a></li>
+      <li><a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a></li>
+      <li><a href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/"
+       class="sign-in-link">Sign In</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+  </div>
   </header>
 
   <main>
       <!-- Flavour full. Fuss free. section-->
-    <section>
+    <section class="mt-5 mb-5">
       <img src="./images/front-page/flavour-full.jpg" alt="flavour-full" />
+      <div class="top-content">
       <div class="top-container">
         <h1>Flavour full. Fuss free</h1>
         <p> Our newly expanded Made Simple range, offers delicious freshly made favourites for great value, starting at
           just £2.99*. Simply great flavour (no fuss).</p>
         <p>*Price and participation may vary. For full range see <a href="https://www.pret.co.uk/en-GB/our-menu">here</a>.
         </p>
-       <form action="https://www.pret.co.uk/en-GB/shop-finder">
-       <input type="submit" value="Find your nearest Pret" />
-       </form>
+            <a href="#" class="btn cta-btn">Find your nearest Pret</a>
+       </div>
       </div>
+      
     </section>
 
      
     <!-- Wrap images and text-->
     <!-- Apps store downloads x 2-->
   <section>
-    <div class="Subscription-container">
-    <p style="float: left;"><img src="./images/front-page/pret-coffee.webp" height="200px" width="200px" border="1px"></p>
-    <h1>Pret Coffee Subscription</h1>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-4 text-center">
+        <img src="./images/front-page/pret-coffee.webp"  class="img img-fluid">
+      </div>
+      <div class="col-md-4">
+        <h1>Pret Coffee Subscription</h1>
     <p>Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50 for your first month, and then £25 after that. Find out more here or download the App to subscribe!</p>
+      </div>
     </div>
+   
   </section>
 
  <!-- Our New Menu is Here section-->
-  <!-- Wrap images and text-->
-  <!-- Find out more here - anchor tags-->
- <section>
+ <!-- Wrap images and text-->
+ <!-- Find out more here - anchor tags-->
+
+  <section>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-4 left">
+        <img src="./images/front-page/new-menu.webp" class="img img-fluid">
+      </div>
+      <div class="col-md-4">
+      <h1>Our New Menu is Here</h1>
+      <p>Oh NO(duja) we didn’t, well actually…. we did. Our new 2023 menu is here and it's not just for veggies...our new vegan products are here for your meat free Mondays, Sundays and every day in between. </p>
+      <p>Pop into shop or order for delivery today. </p>
+      <p> <a href="#" class="btn btn-info" role="button">Find out more</a></p>
+  </div>
+    </div>
+   
+  </section>
+
+
+
+
+
+
+ <!-- <section>
     <div class="new-menu">
     <p style="float: right;"><img src="./images/front-page/new-menu.webp" height="200px" width="200px" border="1px"></p>
     <h1>Our New Menu is Here</h1>
@@ -77,7 +108,7 @@
     <input type="submit" value="Find out more" />
     </form>
     </div>
-</section>
+</section> -->
 
  
     <!-- How do you Pret? section-->
