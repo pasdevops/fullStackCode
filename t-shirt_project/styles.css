@@ -93,6 +93,60 @@ background-color: darkseagreen;
     color: white; 
   } 
 }
+.transitions {
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  width: 300px;
+  height: 50px;
+  transition: transform 2s ease-in-out;
+  /*
+transition can be used for properties in psudo state (transition hover) - Things that are meant to change 
+e.g. 
+transition: all 2s ease-in-out;
+transition: width 2s ease-in-out;
+*/
+}
+.transitions:hover {
+  background-color: aqua;
+  width: 200px;
+  transform: rotate(20deg);
+
+}
+.animation {
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  width: 100px;
+  height: 50px;
+  animation:demo-one 8s infinite;  /* This is the trigger animation rule*/
+}
+@keyframes demo-one { /* This is the stage where rules begins */
+  0% {
+    width: 20px;
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1);
+  }
+  25% {
+    background-color: #0000FF;
+  }
+
+  50% {
+    background-color: green;
+  }
+  75% {
+    transform: translateX(100%);
+  }
+  100% {
+    width: 20px;
+    transform: scale(1.5);
+  }
+}
+
 /* target multiple devices
 @media screen, print {
 

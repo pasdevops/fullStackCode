@@ -1,0 +1,110 @@
+.text-shadow {
+   text-shadow: 1px 1px 2px black, 
+        0 0 1em blue;
+}
+.box-shadow {
+    box-shadow: 1px 1px 2px 5px black;
+}
+.rounded-corners {
+  border-radius: 20px;
+  background-color: brown;
+  padding: 20px; 
+  width: 200px;
+  height: 100px; 
+}
+.multiple-backgrounds {
+    background: url(./images/img1.jpg) top left no-repeat, 
+        url(./images/img2.jpg) top right no-repeat #f00;
+}
+.linear-gradient {
+  height: 500px ;
+  background: linear-gradient(135deg, red, blue, orange, black);
+}
+.radial-gradient {
+  background-image: radial-gradient(ellipse farthest-corner at 45px 45px , 
+    #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+}
+.transformations {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  transform: translateX(100px);
+}
+.transitions {
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  width: 100px;
+  height: 50px;
+  transition: transform 2s ease-in-out;
+  /*
+transition can be used for properties in psudo state (transition hover) - Things that are meant to change 
+e.g. 
+transition: all 2s ease-in-out;
+transition: width 2s ease-in-out;
+*/
+}
+.transitions:hover {
+  background-color: aqua;
+  width: 200px;
+  transform: rotate(20deg);
+
+}
+.animation {
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  width: 100px;
+  height: 50px;
+  animation:demo-one 8s infinite;  /* This is the trigger animation rule*/
+}
+@keyframes demo-one { /* This is the stage where rules begins */
+  0% {
+    width: 20px;
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1);
+  }
+  25% {
+    background-color: #0000FF;
+  }
+
+  50% {
+    background-color: green;
+  }
+  75% {
+    transform: translateX(100%);
+  }
+  100% {
+    width: 20px;
+    transform: scale(1.5);
+  }
+}
+/*
+.animation:hover { This is another trigger animation rule for HOVER
+animation:demo-one 4s infinite;  This is the trigger animation rule
+}
+@keyframes demo-one { This is the stage where rules begins 
+  0% {
+    background-color: orange;
+  }
+  20% {
+    transform: scale(1);
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+  background-color: blue;
+  }
+}
+*/
+
+
+/*
+@keyframes CSS at-rule controls the intermediate steps in a CSS animation 
+sequence by defining styles for keyframes (or waypoints) 
+along the animation sequence. */
