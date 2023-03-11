@@ -4,186 +4,204 @@
 <title>Pret Shop</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<!-- RESET -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- GENERICS -->
-<link rel="stylesheet" href="/generics.css">
- <!-- YOUR STYLES -->
-<link rel="stylesheet" href="styles.css" />
-
+<!-- <link rel="stylesheet" href="generics.css"> -->
+<!-- YOUR STYLES -->
+<link rel="stylesheet" href="styles.css">
 <body>
   <header>
     <div class="container flex-container">
       <nav class="navbar navbar-default borderless">
-    <div class="container-fluid">
-    <div class="d-flex">
-    <div class="navbar-header">
-       <a href="https://www.pret.co.uk/en-GB/orderonline" class="header-logo"><img class="logo" src="./images/pret-a-manger-logo.png" alt="* PRET *"></a>
+        <div class="container-fluid">
+          <div class="d-flex">
+            <div class="navbar-header">
+              <a href="https://www.pret.co.uk/en-GB/orderonline" class="header-logo"><img class="logo"
+                  src="./images/pret-a-manger-logo.png" alt="* PRET *"></a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/about-pret">About</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a></li>
+              <li><a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a></li>
+              <li><a
+                  href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/"
+                  class="sign-in-link">Sign In</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="https://www.pret.co.uk/en-GB/orderonline">Order Online</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/our-menu">Menu</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/shop-finder">Find A Pret</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/about-pret">About</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/orderonline">Veggie Pret</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/pretcoffeesub">Coffee Subscription</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/pret-perks-rewards">Pret Perks</a></li>
-      <li><a href="https://www.pret.co.uk/en-GB/pret-jobs">Jobs</a></li>
-      <li><a href="https://auth.pret.com/login?state=hKFo2SB0N2pkNnFUQlNUaGt2bnVDQW42d1k1ZnhNUk9jb3FWLaFupWxvZ2luo3RpZNkgU3hwd184V2VORGRlN3hmSXh1NmxLUHpweVM0T24xMkGjY2lk2SB5QURFN2pYRllmVzJmc2E2UFlSMmtGZmUzRWJxd2g1Qg&client=yADE7jXFYfW2fsa6PYR2kFfe3Ebqwh5B&protocol=oauth2&audience=https%3A%2F%2Fapi1.pret.com%2F&locale=en-GB&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=Ln50LlptZGNyRGlNU3BGY0RHLUNzbVc4YkdmUFpJSXRZaFlLZU9PUlc1RQ%3D%3D&redirect_uri=https%3A%2F%2Fwww.pret.co.uk%2Fauth%2Factions%2Fcomplete-signin%3Flocale%3Den-GB&code_challenge=jUQezWetZuW6bYSGYPRYBUiApPO8D-0ST4dsj6AopSo&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjAuMSJ9#/"
-       class="sign-in-link">Sign In</a></li>
-    </ul>
-    </div>
-  </div>
-</nav>
-  </div>
   </header>
 
   <main>
-      <!-- Flavour full. Fuss free. section-->
+    <!-- Flavour full. Fuss free. section-->
     <section class="mt-5 mb-5">
-      <img src="./images/front-page/flavour-full.jpg" alt="flavour-full" />
+      <img src="./images/front-page/flavour-full.jpg" alt="flavour-full" class="fullwidth-img" />
       <div class="top-content">
-      <div class="top-container">
-        <h1>Flavour full. Fuss free</h1>
-        <p> Our newly expanded Made Simple range, offers delicious freshly made favourites for great value, starting at
-          just £2.99*. Simply great flavour (no fuss).</p>
-        <p>*Price and participation may vary. For full range see <a href="https://www.pret.co.uk/en-GB/our-menu">here</a>.
-        </p>
+        <div class="top-container">
+          <h1>Flavour full. Fuss free</h1>
+          <p> Our newly expanded Made Simple range, offers delicious freshly made favourites for great value, starting
+            at
+            just £2.99*. Simply great flavour (no fuss).</p>
+          <p>*Price and participation may vary. For full range see <a
+              href="https://www.pret.co.uk/en-GB/our-menu">here</a>.
+          </p>
+          <div class="cta-btn-div">
             <a href="#" class="btn cta-btn">Find your nearest Pret</a>
-       </div>
+          </div>
+        </div>
       </div>
-      
+
     </section>
 
-     
+
     <!-- Wrap images and text-->
     <!-- Apps store downloads x 2-->
-  <section>
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4 text-center">
-        <img src="./images/front-page/pret-coffee.webp"  class="img img-fluid">
+    <section>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 text-center">
+          <img src="./images/front-page/pret-coffee.webp" class="img img-fluid">
+        </div>
+        <div class="col-md-4">
+          <h1>Pret Coffee Subscription</h1>
+          <p>Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50
+            for your first month, and then £25 after that. Find out more here or download the App to subscribe!</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h1>Pret Coffee Subscription</h1>
-    <p>Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50 for your first month, and then £25 after that. Find out more here or download the App to subscribe!</p>
-      </div>
-    </div>
-   
-  </section>
 
- <!-- Our New Menu is Here section-->
- <!-- Wrap images and text-->
- <!-- Find out more here - anchor tags-->
+    </section>
 
-  <section>
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4 left">
-        <img src="./images/front-page/new-menu.webp" class="img img-fluid">
+    <!-- Our New Menu is Here section-->
+    <!-- Wrap images and text-->
+    <!-- Find out more here - anchor tags-->
+
+    <section>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 left">
+          <img src="./images/front-page/new-menu.webp" class="img img-fluid">
+        </div>
+        <div class="col-md-4">
+          <h1>Our New Menu is Here</h1>
+          <p>Oh NO(duja) we didn’t, well actually…. we did. Our new 2023 menu is here and it's not just for
+            veggies...our new vegan products are here for your meat free Mondays, Sundays and every day in between. </p>
+          <p>Pop into shop or order for delivery today. </p>
+          <p> <a href="#" class="btn btn-info" role="button">Find out more</a></p>
+          <i class="fa-brands fa-apple"></i>
+          <i class="fa-brands fa-google-play"></i>
+        </div>
       </div>
-      <div class="col-md-4">
-      <h1>Our New Menu is Here</h1>
-      <p>Oh NO(duja) we didn’t, well actually…. we did. Our new 2023 menu is here and it's not just for veggies...our new vegan products are here for your meat free Mondays, Sundays and every day in between. </p>
-      <p>Pop into shop or order for delivery today. </p>
-      <p> <a href="#" class="btn btn-info" role="button">Find out more</a></p>
-      <i class="fa-brands fa-apple"></i>
-      <i class="fa-brands fa-google-play"></i>
-  </div>
-    </div>
-   
-  </section>
+
+    </section>
 
     <!-- How do you Pret? section-->
     <!-- Order Pret straight to your door - image/anchor tags/hoover - Order delivery-->
     <!-- Eat in at your nearest Pret - image/anchor tags/ hoover - Find a Pret-->
     <!-- Subscribe to the Pret Coffee Subscription - image/anchor tags/hoover - Sign up now -->
-<section>
-    <div class="pret-container">
-      <h3>How do you Pret?</h3>
-      <ul>
-        <li><a href=""><img src="./images/front-page/pret-order.jfif" alt="Order delivery"></a></li>
-         <form action="https://www.pret.co.uk/en-GB/orderonline">
-         <input type="submit" value="Order delivery" />
-         </form>
-        <li><a href=""><img src="./images/front-page/pret-find.jfif" alt="Find a Pret"></a></li>
-         <form action="https://www.pret.co.uk/en-GB/shop-finder">
-         <input type="submit" value="Find a Pret" />
-         </form>
-        <li><a href=""><img src="./images/front-page/pret-subscribe.jfif" alt="Sign up now""></a></li>
-         <form action="https://www.pret.co.uk/en-GB/pretcoffeesub">
-         <input type="submit" value="Sign up now" />
-         </form>
-      </ul>
-    </div>
-</section>
+    <section>
+      <div class="pret-container">
+        <h1>How do you Pret?</h1>
+        <div class="pret-menu-container">
+          <ul>
+            <li><a href=""><img src="./images/front-page/pret-order.jfif" alt="Order delivery"></a>
+              <a href="#" class="cta-btn">Sign Up Now</a>
+            </li>
+            <li><a href=""><img src="./images/front-page/pret-find.jfif" alt="Find a Pret"></a>
+              <a href="#" class="cta-btn">Sign Up Now</a>
+            </li>
+            <li><a href=""><img src="./images/front-page/pret-subscribe.jfif" alt="Sign up now"></a>
+              <a href="#" class="cta-btn">Sign Up Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<!-- We're recruiting section-->
-<!-- image/ hoover - Apply now-->
-  <section>
-    <div>
-    <div class="recruiting-container">
-    <p style="float: right;"><img src="./images/front-page/recruitment.webp" height="200px" width="200px" border="1px"></p>
-    <h1>We're recruiting...</h1>
-    <p>Calling all superstar Baristas, Team Leaders (Supervisors) and Team Members. Apply now to enjoy flexible hours, free food, and great career development opportunities.</p>
-    <p>And with our recent pay and mystery shopper bonus increase, there’s no better time to join Team Pret… </p>
-    <form action="https://www.pret.co.uk/en-GB/pret-jobs">
-    <input type="submit" value="Apply now" />
-    </form>
-    </div>
-  </section>
+    <!-- We're recruiting section-->
+    <!-- image/ hoover - Apply now-->
+    <section>
+      <div>
+        <div class="recruiting-container d-flex">
+          <p><img src="./images/front-page/recruitment.webp" class="recruiting-image"></p>
+          <div class="recruiting-text-conteniner">
+          <h1>We're recruiting...</h1>
+            <p>Calling all superstar Baristas, Team Leaders (Supervisors) and Team Members. Apply now to enjoy flexible
+            hours, free food, and great career development opportunities.</p>
+          <p>And with our recent pay and mystery shopper bonus increase, there’s no better time to join Team Pret… </p>
+          <a href="" class="action-btn">Apply Now</a>
+          </div>
+        </div>
+    </section>
 
-  <!-- Pret Joy at Home section-->
-  <!-- images/text wrap/hoover/anchor tags - shop now-->
-<section>
-    <div>
-    <p style="float: left;"><img src="./images/front-page/joy-home.jfif" height="200px" width="200px" border="1px"></p>
-    <h1>Pret Joy at Home</h1>
-    <p>Whether you're yearning for granola, craving a croissant or longing after a latte, you can now enjoy your Pret favourites from the comfort of your own home. Shop our range of organic coffee, frozen croissants, vegan granolas and ketchups ready to dip, eat, brew or bake (hooray!).</p>
-    <form action="https://www.pret.co.uk/en-GB/shop">
-    <input type="submit" value="Shop now" />
-    </form>
-    </div>
-</section>
+    <!-- Pret Joy at Home section-->
+    <!-- images/text wrap/hoover/anchor tags - shop now-->
+    <section>
+      <div class="half-container d-flex ">
+        <img src="./images/front-page/joy-home.jfif" class="joy-home">
+        <div class="joy-text-container">
+          <h1>Pret Joy at Home</h1>
+          <p>Whether you're yearning for granola, craving a croissant or longing after a latte, you can now enjoy your
+            Pret favourites from the comfort of your own home. Shop our range of organic coffee, frozen croissants,
+            vegan
+            granolas and ketchups ready to dip, eat, brew or bake (hooray!).</p>
+          <a href="" class="cta-btn">Shop Now</a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Our Food and Drink menu section -->
+    <!-- multiple images x 8 -->
+    <section>
+      <div class="half-container">
+        <div class="grid-container">
+          <div class="grid-item"><a href="https://www.pret.co.uk/en-GB/products/categories/hot-drinks"><img
+                src="./images/menu/hot-drink.jpg"></a></div>
+          <div class="grid-item">Breakfast</div>
+          <div class="grid-item">Sandwiches,and wraps</div>
+          <div class="grid-item">Salads & Protein Pots</div>
+          <div class="grid-item">Hot food</div>
+          <div class="grid-item">Sweet & Savoury snacks</div>
+          <div class="grid-item">Fruit & Fruit pots</div>
+          <div class="grid-item">Cold Drinks</div>
+        </div>
+      </div>
 
-  <!-- Our Food and Drink menu section -->
-  <!-- multiple images x 8 -->
-<section>
-  <div class="grid-container">
-  <div class="grid-item"><a href="https://www.pret.co.uk/en-GB/products/categories/hot-drinks"><img src="./images/menu/hot-drink.jpg"></a></div>
-  <div class="grid-item">Breakfast</div>
-  <div class="grid-item">Sandwiches,and wraps</div>
-  <div class="grid-item">Salads & Protein Pots</div>
-  <div class="grid-item">Hot food</div>
-  <div class="grid-item">Sweet & Savoury snacks</div>
-  <div class="grid-item">Fruit & Fruit pots</div>
-  <div class="grid-item">Cold Drinks</div>
- </div>
-</section>
-
-
-  <!-- Allergen Guide section -->
-  <!-- Allergen Guide PDF - anchor tags -->
-  <!-- Customer Service - anchor tags -->
-  <!--  Read our allergen guide -hoover/anchor tags -->
-
-<section>
- <div>
-  <h1>Allergen Guide</h1>
-  <p>We're proud to freshly prepare our food in our shop kitchens every day, but as we use many ingredients and shared equipment, we are unable to guarantee that our food is allergen free due to the risk of cross-contact.</p>
-  <p>Our vegan food is made to a vegan recipe but is not suitable for those with milk or egg allergies</p>
-  <p> Our <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://assets.ctfassets.net/4zu8gvmtwqss/6jWwdUDoH4T6gbd6GvrWDI/1a6b05bce7606714841d7abb2b02af1d/Combined_Allergen_Guide_20th_January_2023_V2.pdf">Allergen Guide PDF</a>contains a list of all the products we sell in our shops, with the 14 declarable allergens listed along the top of the page for your reference. You will also find the declarable allergens listed on the product shelf tickets in our shops. In addition, we also declare Pine Nuts as an allergen.</p>
-  <p>If you are interested in an ingredient outside the 14 allergens listed, please check our Ingredient List which contains a list of all the products we sell in our shops, with ingredients listed for easy reference.</p>
-  <p>If you need to know more, please get in touch with our <a href="https://www.pret.co.uk/en-GB/talk-to-pret">Customer Service</a> team who will be happy to help.</p>
-   <form action="https://www.pret.co.uk/en-GB/allergenguide">
-    <input type="submit" value="Read our allergen guide" />
-    </form>
- </div>
-</section>
+    </section>
 
 
-</main>
+    <!-- Allergen Guide section -->
+    <!-- Allergen Guide PDF - anchor tags -->
+    <!-- Customer Service - anchor tags -->
+    <!--  Read our allergen guide -hoover/anchor tags -->
+
+    <section>
+      <div class="half-container">
+        <h1>Allergen Guide</h1>
+        <p>We're proud to freshly prepare our food in our shop kitchens every day, but as we use many ingredients and
+          shared equipment, we are unable to guarantee that our food is allergen free due to the risk of cross-contact.
+        </p>
+        <p>Our vegan food is made to a vegan recipe but is not suitable for those with milk or egg allergies</p>
+        <p> Our <a
+            href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://assets.ctfassets.net/4zu8gvmtwqss/6jWwdUDoH4T6gbd6GvrWDI/1a6b05bce7606714841d7abb2b02af1d/Combined_Allergen_Guide_20th_January_2023_V2.pdf">Allergen
+            Guide PDF</a>contains a list of all the products we sell in our shops, with the 14 declarable allergens
+          listed along the top of the page for your reference. You will also find the declarable allergens listed on the
+          product shelf tickets in our shops. In addition, we also declare Pine Nuts as an allergen.</p>
+        <p>If you are interested in an ingredient outside the 14 allergens listed, please check our Ingredient List
+          which contains a list of all the products we sell in our shops, with ingredients listed for easy reference.
+        </p>
+        <p>If you need to know more, please get in touch with our <a
+            href="https://www.pret.co.uk/en-GB/talk-to-pret">Customer Service</a> team who will be happy to help.</p>
+        <form action="https://www.pret.co.uk/en-GB/allergenguide">
+          <input type="submit" value="Read our allergen guide" />
+        </form>
+      </div>
+    </section>
+
+
+  </main>
 </body>
+
 </html>
