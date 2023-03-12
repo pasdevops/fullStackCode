@@ -593,11 +593,11 @@ Implicit grid - stay clear
 
 https://grid.malven.co/
 
-1. SAAS
+13. SAAS
 https://drive.google.com/file/d/13brtnZdciF8B8JCJtsgMXxRsIj0245J-/view?ts=6407bcbc
-
-
-
+https://slides.com/jmsherry/css-pre-processors?token=zp9K4fbZ
+https://www.w3schools.com/sass/default.php
+https://www.javatpoint.com/what-is-sass
 
 
 
